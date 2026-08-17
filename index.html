@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="J/S Shoppy - Dynamic product store using Fake Store API">
+    <title>J/S Shoppy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>J/S Shoppy</h1>
+    </header>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="home">
+        <section class="products-section" id="products">
+            <div class="section-heading">
+                <h2>Our Products</h2>
+                <div class="cart">🛒 Cart: <span id="cartCount">0</span></div>
+            </div>
+
+            <div id="productsContainer" class="products-grid">
+                <div class="loading">Loading products...</div>
+            </div>
+        </section>
+
+        <section class="info-section" id="about">
+            <h2>About Us</h2>
+            <p>Welcome to J/S Shoppy! Browse our products dynamically loaded from the Fake Store API.</p>
+        </section>
+
+        <section class="info-section" id="contact">
+            <h2>Contact</h2>
+            <p>Email: support@jsshoppy.example</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 J/S Shoppy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
